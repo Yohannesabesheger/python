@@ -16,9 +16,10 @@ def firstn(n):
     while num < n:
         yield num
         num += 1
+```
 ## Generator Expression:
 
-python
+``` python
 Copy
 Edit
 squares = (x * x for x in range(10))
